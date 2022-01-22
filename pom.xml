@@ -18,11 +18,9 @@
 
   <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>scp://repo/maven2</url>
-      <layout>default</layout>
+      <id>github</id>
+      <name>GitHub Continious-Software-Engineering Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/continious-software-engineering/review-service-api</url>
     </repository>
   </distributionManagement>
 
@@ -47,6 +45,7 @@
   </dependencies>
 
   <build>
+    <finalName>review-service-api</finalName>
     <extensions>
       <extension>
         <groupId>kr.motd.maven</groupId>

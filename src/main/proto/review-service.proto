@@ -6,7 +6,7 @@ service ReviewService {
   rpc AddReview(AddReviewRequest) returns (Empty) {}
   rpc GetReviews(GetReviewsRequest) returns (stream Review) {}
   rpc GetReview(GetReviewRequest) returns (Review) {}
-  rpc UpdateReviews(UpdateReviewRequest) returns (Empty) {}
+  rpc UpdateReview(UpdateReviewRequest) returns (Empty) {}
 }
 
 message AddReviewRequest {
