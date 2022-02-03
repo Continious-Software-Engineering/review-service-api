@@ -25,7 +25,7 @@ message GetReviewRequest {
 }
 
 message UpdateReviewRequest {
-  string review_id =1;
+  string review_id = 1;
   int32 rating = 3;
   string description = 4;
 }
