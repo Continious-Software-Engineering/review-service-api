@@ -6,14 +6,14 @@
 
     <groupId>review-service-api</groupId>
     <artifactId>review-service-api</artifactId>
-    <version>2.0-SNAPSHOT</version>
+    <version>3.0-SNAPSHOT</version>
 
   <properties>
     <protobuf.version>3.19.1</protobuf.version>
     <protobuf-plugin.version>0.6.1</protobuf-plugin.version>
     <grpc.version>1.43.2</grpc.version>
-    <maven.compiler.source>6</maven.compiler.source>
-    <maven.compiler.target>6</maven.compiler.target>
+    <maven.compiler.source>7</maven.compiler.source>
+    <maven.compiler.target>7</maven.compiler.target>
   </properties>
 
   <distributionManagement>
@@ -102,8 +102,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>6</source>
-          <target>6</target>
+          <source>7</source>
+          <target>7</target>
         </configuration>
       </plugin>
     </plugins>
